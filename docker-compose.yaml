@@ -12,7 +12,5 @@ services:
         volumes:
             - ./seeddms-data:/var/lib/seeddms/data
             - seeddms-conf:/var/lib/seeddms/conf
-            - ./dms-data:/var/www/seeddms/data
-
 volumes:
     seeddms-conf:
