@@ -6,11 +6,11 @@ services:
         restart: unless-stopped            
         ports:
             - "8200:80"
-            - "8443:443"
         environment:
             - TZ=Europe/Madrid            
         volumes:
-            - ./seeddms-data:/var/lib/seeddms/data
+            - seeddms-data:/var/lib/seeddms/data
             - seeddms-conf:/var/lib/seeddms/conf
 volumes:
+    seeddms-data:
     seeddms-conf:
