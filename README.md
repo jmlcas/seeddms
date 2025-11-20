@@ -1,8 +1,7 @@
 # SeedDMS 
 
-Ver en "localhost:8200"
+Ver en "http://localhost:8200"
 
 Usuario: admin
 
 Password: admin
-
